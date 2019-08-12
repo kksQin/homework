@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cesgroup</groupId>
+	<artifactId>homework-spring-boot-starter</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+	
+	<dependencies>
+        <!--灏佽Starter鏍稿績渚濊禆  -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.1.3.RELEASE</version>
+        </dependency>
+        <!--闈炲繀闇€,璇ヤ緷璧栦綔鐢ㄦ槸鍦ㄤ娇鐢↖DEA缂栧啓閰嶇疆鏂囦欢鏈変唬鐮佹彁绀?->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <version>2.1.3.RELEASE</version>
+        </dependency>
+        <!-- lombok 鎻掍欢  -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+            <optional>true</optional>
+        </dependency>
+        <!-- 鍥犱负瑕佷娇鐢≧estTemplate鍜岃浆鎹son锛屾墍浠ュ紩鍏ヨ繖涓や釜渚濊禆 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.1.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.45</version>
+        </dependency>
+    </dependencies>
+</project>
